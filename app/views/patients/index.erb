@@ -1,0 +1,7 @@
+<h1>Patients Index</h1>
+
+<ul>
+  <% @patients.each do |pat| %>
+    <li>Name: <%= pat.name %> Number of Appointments: <%= pat.appt_count %></li>
+  <% end %>
+</ul>
